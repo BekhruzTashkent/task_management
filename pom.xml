@@ -63,6 +63,18 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.jodconverter</groupId>
+			<artifactId>jodconverter-local-lo</artifactId>
+			<version>4.4.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jodconverter</groupId>
+			<artifactId>jodconverter-core</artifactId>
+			<version>4.4.8</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Slf4j
 @Getter
@@ -32,10 +32,10 @@ public class Task {
     @Column
     private String description;
 
-    private Date dueDate;
+    private LocalDateTime dueDate;
 
     @Enumerated(EnumType.STRING)
-    private Status name;
+    private Status status;
 
 
 }
