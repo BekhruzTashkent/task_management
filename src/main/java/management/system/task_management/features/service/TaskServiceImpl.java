@@ -10,7 +10,6 @@ import management.system.task_management.features.repository.TaskRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class TaskServiceImpl implements TaskService{
@@ -48,9 +47,12 @@ public class TaskServiceImpl implements TaskService{
         );
 
         task.setTitle(taskDto.getTitle());
+
         task.setDescription(taskDto.getDescription());
-        task.setDueDate(taskDto.getDueDate());
+
         task.setStatus(taskDto.getStatus());
+
+        task.setDueDate(taskDto.getDueDate());
 
         return taskRepository.save(task);
 
