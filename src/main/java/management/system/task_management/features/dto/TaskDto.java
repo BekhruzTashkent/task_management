@@ -10,9 +10,11 @@ import java.time.LocalDateTime;
 public class TaskDto {
 
     private String title;
-    private String description;
-    private LocalDateTime dueDate;
-    private Status status;
 
+    private String description;
+
+    private LocalDateTime dueDate;
+
+    private Status status;
 
 }

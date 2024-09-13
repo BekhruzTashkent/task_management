@@ -9,7 +9,7 @@ public class FileConverter {
         String docxFilePath =
                 "/Users/bexruz/Desktop/eReportFilesTest/official_files_docx/53-форма.docx";
         String outputDirPath =
-                "/Users/bexruz/Desktop/eReportFilesTest";
+                "/Users/bexruz/Desktop/eReportFilesTest/testing";
         convertToPdf(
                 docxFilePath,
                 outputDirPath
